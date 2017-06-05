@@ -1,0 +1,12 @@
+{application, xpath,
+  [{description, "Erlang XPath support"},
+    {vsn, "1.0.0"},
+    {registered, []},
+    {applications, [kernel, stdlib, xmerl]},
+    {env,[]},
+    {modules, []},
+    {maintainers, ["Dmitry Averbakh"]},
+    {licenses, ["MIT"]},
+    {links, [{"Github", "https://github.com/hiend/xpath"},
+      {"Hex", "https://hex.pm/packages/xpath"}]}
+  ]}.
